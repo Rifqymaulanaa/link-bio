@@ -175,7 +175,7 @@
             border-radius: 50%;
             border: 4px solid var(--border-color);
             margin-bottom: 20px;
-            object-fit: cover;
+            object-fit: cover; /* Ensures the image covers the area without distortion */
             box-shadow: 0 10px 30px rgba(0,0,0,0.2);
             transition: border-color 0.4s ease;
         }
@@ -280,7 +280,9 @@
     </div>
 
     <main class="bio-container">
-        <img src="iki.JPG">
+        <!-- FOTO PROFIL DIUBAH DI SINI -->
+        <img src="iki.JPG" alt="Foto Profil Rifqy Maulana" class="profile-picture reveal">
+        
         <h1 class="username reveal">Rifqy Maulana</h1>
         <p class="user-handle reveal">Digital Enthusiast & Developer</p>
 
@@ -318,7 +320,7 @@
         </div>
 
         <footer class="footer reveal" style="transition-delay: 700ms;">
-            <p>&copy; 2024 Rifqy Maulana. Dibuat dengan <i class="fa-solid fa-heart" style="color: #e25555;"></i></p>
+            <p>© 2024 Rifqy Maulana. Dibuat dengan <i class="fa-solid fa-heart" style="color: #e25555;"></i></p>
         </footer>
     </main>
 
